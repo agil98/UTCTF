@@ -21,10 +21,12 @@ The spectrum of the signal means the spectrum of frequencies of the audio file. 
 > I recently received this signal transmission known as SSTV in a mode called Martian? This technology is all very old so I'm not sure what to do with it. Could you help me out?
 
 We are given a wav file which is actually a SSTV transmission. Using a SSTV application and setting the mode to Martian we obtain the flag.
+
 ![Flag](sstv.jpg)
 
 ## The Legend of Hackerman Pt 1
 We are given a corrupted png file. Opening this file in a hex editor we can see that the magic number is not correct. We replaced the first couple of bytes with 89 50 4E 47 and then opened the file to find the flag.
+
 ![Flag](hackerman.png)
 
 ## The Legend of the Hackerman Pt 2
